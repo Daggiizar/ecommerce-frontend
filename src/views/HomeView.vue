@@ -8,7 +8,6 @@
 </template>
 
 <script>
-// Importa el componente que muestra una lista de productos
 import ProductList from '@/components/ProductList.vue';
 
 export default {
@@ -18,7 +17,7 @@ export default {
   },
   data() {
     return {
-      featuredProducts: [] // Esto se llenaría con una llamada API al backend
+      featuredProducts: []
     };
   },
   created() {
@@ -26,8 +25,7 @@ export default {
   },
   methods: {
     fetchFeaturedProducts() {
-      // Aquí harías una llamada al backend para obtener los productos destacados
-      // Simulamos unos productos de ejemplo
+
       this.featuredProducts = [
         { id: 1, name: 'Laptop', price: 999.99, description: 'Una potente laptop para todos tus necesidades diarias.' },
         { id: 2, name: 'Smartphone', price: 599.99, description: 'Un smartphone con la mejor cámara del mercado.' },

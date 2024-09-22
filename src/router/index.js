@@ -3,9 +3,9 @@ import Router from 'vue-router';
 
 import Home from '@/views/Home.vue';
 import Login from '@/views/Login.vue';
-import ProductManagement from '@/views/ProductManagement.vue';
-import OrderList from '@/views/OrderList.vue';
-import UserManagement from '@/views/UserManagement.vue';
+import ProductManagement from '@/views/ProductManagementView.vue';
+import OrderList from '@/views/OrderListView.vue';
+import UserManagement from '@/views/UserManagementView.vue';
 
 Vue.use(Router);
 
